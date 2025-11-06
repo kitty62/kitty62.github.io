@@ -153,6 +153,13 @@ background-position: 0 -70px;
     left: 762px;
 }
 
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(FaceButtons.png);
+}
+
 .ds4 .button.pressed {
     background-position-y: 55px;
     /* margin-top: 5px; */
@@ -220,6 +227,11 @@ background-position: 0 -70px;
     height: 126px;
     top: 220px;
     left: 286px;
+}
+
+.ds4 .face {
+    background: url(Dpad.png);
+    position: absolute;
 }
 
 .ds4 .face.up, .ds4 .face.down {
